@@ -1,0 +1,29 @@
+.bienvenidos
+{   
+    position: relative;
+    bottom: 250px;
+    margin-left: 500px;
+}
+.columnas
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contenedor-imagenes {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+.imagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.holder-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;}

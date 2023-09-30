@@ -1,0 +1,14 @@
+.holder-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;}
+.contenido{
+        border: 1px solid #ccc;
+        padding: 20px;
+        display: inline-flex;
+    }
+.contenido p{
+        margin-left: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 1.5;
+    }
